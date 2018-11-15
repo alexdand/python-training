@@ -86,3 +86,4 @@ def intersection(list1, list2):
 
 def partition(lista, callback):
     return [[lista[i] for i in range(0, len(lista)) if callback(lista[i])], [lista[i] for i in range(0, len(lista)) if not callback(lista[i])]]
+
